@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DealZone - Best Affiliate Products & Deals</title>
+    <meta name="description" content="Discover the best products, exclusive deals and launch new affiliate offers. Your one-stop affiliate marketing store.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Deal<span>Zone</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#categories">Categories</a></li>
+                <li><a href="#launch">Launch Product</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="menu-toggle" id="menuToggle">☰</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <h1>Best Products.<br>Best Deals.<br><span>Launch Your Offers.</span></h1>
+            <p>Affiliate marketing website jahan aap apne favorite products promote kar sakte ho aur naye products launch kar sakte ho.</p>
+            <div class="hero-buttons">
+                <a href="#products" class="btn btn-primary">Browse Products</a>
+                <a href="#launch" class="btn btn-secondary">Launch New Product</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="products-section" id="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Products</h2>
+                <p>Top selling products jo aap promote kar sakte ho</p>
+            </div>
+
+            <div class="products-grid" id="productsGrid">
+                <!-- Product cards will be injected by JS or static below -->
+                <div class="product-card">
+                    <div class="product-badge">Hot</div>
+                    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop" alt="Wireless Headphones">
+                    <div class="product-info">
+                        <span class="category">Electronics</span>
+                        <h3>Premium Wireless Headphones</h3>
+                        <p class="price">₹2,999 <span class="old-price">₹4,999</span></p>
+                        <p class="commission">Commission: 12%</p>
+                        <a href="#" class="btn btn-buy" target="_blank" rel="noopener">Buy Now / Affiliate Link</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-badge new">New</div>
+                    <img src="https://images.unsplash.com/photo-1523275335684-378608bce404?w=400&h=300&fit=crop" alt="Smart Watch">
+                    <div class="product-info">
+                        <span class="category">Wearables</span>
+                        <h3>Smart Fitness Watch</h3>
+                        <p class="price">₹4,499 <span class="old-price">₹6,999</span></p>
+                        <p class="commission">Commission: 15%</p>
+                        <a href="#" class="btn btn-buy" target="_blank" rel="noopener">Buy Now / Affiliate Link</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400&h=300&fit=crop" alt="Running Shoes">
+                    <div class="product-info">
+                        <span class="category">Fashion</span>
+                        <h3>Ultra Comfort Running Shoes</h3>
+                        <p class="price">₹1,899 <span class="old-price">₹3,299</span></p>
+                        <p class="commission">Commission: 10%</p>
+                        <a href="#" class="btn btn-buy" target="_blank" rel="noopener">Buy Now / Affiliate Link</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-badge">Best Seller</div>
+                    <img src="https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=400&h=300&fit=crop" alt="Sunglasses">
+                    <div class="product-info">
+                        <span class="category">Accessories</span>
+                        <h3>UV Protection Sunglasses</h3>
+                        <p class="price">₹999 <span class="old-price">₹1,799</span></p>
+                        <p class="commission">Commission: 18%</p>
+                        <a href="#" class="btn btn-buy" target="_blank" rel="noopener">Buy Now / Affiliate Link</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1585386959984-a4155224a1ad?w=400&h=300&fit=crop" alt="Skincare">
+                    <div class="product-info">
+                        <span class="category">Beauty</span>
+                        <h3>Natural Skincare Kit</h3>
+                        <p class="price">₹1,499 <span class="old-price">₹2,499</span></p>
+                        <p class="commission">Commission: 20%</p>
+                        <a href="#" class="btn btn-buy" target="_blank" rel="noopener">Buy Now / Affiliate Link</a>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-badge new">New Launch</div>
+                    <img src="https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=400&h=300&fit=crop" alt="Sneakers">
+                    <div class="product-info">
+                        <span class="category">Fashion</span>
+                        <h3>Limited Edition Sneakers</h3>
+                        <p class="price">₹3,299 <span class="old-price">₹5,499</span></p>
+                        <p class="commission">Commission: 14%</p>
+                        <a href="#" class="btn btn-buy" target="_blank" rel="noopener">Buy Now / Affiliate Link</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories-section" id="categories">
+        <div class="container">
+            <div class="section-header">
+                <h2>Shop by Category</h2>
+                <p>Apne favorite category se products choose karo</p>
+            </div>
+            <div class="categories-grid">
+                <div class="category-card">
+                    <div class="cat-icon">📱</div>
+                    <h3>Electronics</h3>
+                    <p>Gadgets, headphones, smart devices</p>
+                </div>
+                <div class="category-card">
+                    <div class="cat-icon">👟</div>
+                    <h3>Fashion</h3>
+                    <p>Shoes, clothes, accessories</p>
+                </div>
+                <div class="category-card">
+                    <div class="cat-icon">💄</div>
+                    <h3>Beauty</h3>
+                    <p>Skincare, makeup, personal care</p>
+                </div>
+                <div class="category-card">
+                    <div class="cat-icon">🏠</div>
+                    <h3>Home & Living</h3>
+                    <p>Decor, kitchen, furniture</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Launch Product Section -->
+    <section class="launch-section" id="launch">
+        <div class="container">
+            <div class="section-header">
+                <h2>Launch Your Product</h2>
+                <p>Yahan se aap naya product add kar sakte ho (demo form)</p>
+            </div>
+
+            <form class="launch-form" id="launchForm">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Product Name *</label>
+                        <input type="text" id="productName" placeholder="e.g. Wireless Earbuds" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Category</label>
+                        <select id="productCategory">
+                            <option value="Electronics">Electronics</option>
+                            <option value="Fashion">Fashion</option>
+                            <option value="Beauty">Beauty</option>
+                            <option value="Home">Home & Living</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>Price (₹) *</label>
+                        <input type="number" id="productPrice" placeholder="2999" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Old Price (₹)</label>
+                        <input type="number" id="productOldPrice" placeholder="4999">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label>Affiliate / Buy Link *</label>
+                    <input type="url" id="productLink" placeholder="https://your-affiliate-link.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label>Commission (%)</label>
+                    <input type="number" id="productCommission" placeholder="12" min="0" max="100">
+                </div>
+
+                <div class="form-group">
+                    <label>Short Description</label>
+                    <textarea id="productDesc" rows="3" placeholder="Product ke baare mein short description..."></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-full">Launch Product</button>
+            </form>
+
+            <div id="launchMessage" class="launch-message"></div>
+        </div>
+    </section>
+
+    <!-- Contact / CTA -->
+    <section class="cta-section" id="contact">
+        <div class="container">
+            <h2>Ready to Start Earning?</h2>
+            <p>Apne affiliate links update karo aur products promote karna shuru karo.</p>
+            <a href="#products" class="btn btn-primary">View All Products</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">Deal<span>Zone</span></a>
+                    <p>Your trusted affiliate marketing platform.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#products">Products</a>
+                    <a href="#launch">Launch Product</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Support</h4>
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 DealZone. Built for affiliate marketers.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
